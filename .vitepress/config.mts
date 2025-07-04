@@ -15,8 +15,8 @@ export default defineConfig({
           items: [
             { text: 'Getting Started', 
               items: [
-                { text: 'Introduction', link: '/guides/getting-started' },
-                { text: 'Installation', link: '/guides/getting-started' },
+                { text: 'Introduction', link: '/guides/introduction' },
+                { text: 'Installation', link: '/guides/installation' },
               ]
             },
             { text: 'Project Structure', link: '/apis/basic.html' },
@@ -30,8 +30,8 @@ export default defineConfig({
     sidebar: [
       { text: 'Getting Started', 
         items: [
-          { text: 'Introduction', link: '/guides/getting-started' },
-          { text: 'Installation', link: '/guides/getting-started' },
+          { text: 'Introduction', link: '/guides/introduction' },
+          { text: 'Installation', link: '/guides/installation' },
           { text: 'Quickstart', link: '/guides/getting-started' },
           { text: 'CLI and Configuration', link: '/guides/getting-started' },
         ]
