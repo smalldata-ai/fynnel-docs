@@ -32,13 +32,13 @@ export default defineConfig({
         items: [
           { text: 'Introduction', link: '/guides/introduction' },
           { text: 'Installation', link: '/guides/installation' },
-          { text: 'Quickstart', link: '/guides/getting-started' },
+          { text: 'Quickstart', link: '/guides/quickstart' },
           { text: 'CLI and Configuration', link: '/guides/getting-started' },
         ]
       },
       { text: 'Core Concepts', 
         items: [
-          { text: 'Projects', link: '/guides/getting-started' },
+          { text: 'Projects', link: '/concepts/projects.md' },
           { text: 'Workspace', link: '/guides/getting-started' },
           { text: 'Connections', link: '/guides/getting-started' },
           { text: 'Assets', link: '/guides/getting-started' },

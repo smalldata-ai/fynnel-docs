@@ -1,4 +1,4 @@
-# Introduction to Fynnel
+## Introduction to Fynnel
 
 **Fynnel** is a data engineering toolkit designed to simplify the creation, management, and orchestration of modern data pipelines.
 
