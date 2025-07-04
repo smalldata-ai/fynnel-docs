@@ -2,8 +2,10 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+
   title: "Fynnel",
   description: "A data engineering toolkit to simplify your Data Workflow.",
+  base: "/fynnel-docs/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
