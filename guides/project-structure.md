@@ -57,7 +57,6 @@ fynnel pipeline run --config pipeline.yaml
 ```
 
 ---
-
 ## 5. Assets
 **Assets** are reusable components such as DBT models, SQL scripts, or data quality checks that can be managed within your project or workspace.
 
