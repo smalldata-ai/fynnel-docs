@@ -56,7 +56,6 @@ export default defineConfig({
       { text: 'Transformations', 
         items: [
           { text: 'Projects and PIpelines', link: '/guides/getting-started' },
-          
         ]
       },
       { text: 'Quality and Validations', 
