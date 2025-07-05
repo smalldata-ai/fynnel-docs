@@ -40,7 +40,7 @@ fynnel connections add --type clickhouse --name my_click --host localhost --port
 
 ---
 ### 4. Define Your asset in asset folder
-```
+```yaml
 identity: transactions
 source:
   connection: my_pg
@@ -58,7 +58,7 @@ resources:
 ### 5. Define and Run a Pipeline
 
 Add your pipeline configuration in my_workspace.yml.
-```
+```yaml
 pipelines:
   - identity: "transactions"
 ```
