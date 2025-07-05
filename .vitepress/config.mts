@@ -40,8 +40,8 @@ export default defineConfig({
           { text: 'Assets', link: '/concepts/assets' },
           { text: 'Pipelines', link: '/concepts/pipelines' },
           { text: 'Secrets', link: '/concepts/secrets' },
-          { text: 'Transformations', link: '/guides/getting-started' },
-          { text: 'Quality Checks', link: '/guides/getting-started' },
+          { text: 'Transformations', link: '/concepts/transformations' },
+          { text: 'Quality & Validations', link: '/concepts/quality' },
         ]
       },
       { text: 'Confirguration', 
