@@ -15,9 +15,7 @@ export default defineConfig({
           { text: 'Getting Started', link: '/guides/introduction'},
           { text: 'Core Concepts', link: '/concepts/projects.md' },
           { text: 'Configuration', link: '/concepts/projects.md' },
-          { text: 'Transformations', link: '/concepts/projects.md' },
-          { text: 'Quality Checks', link: '/concepts/projects.md' },
-          { text: 'Observability', link: '/concepts/projects.md' },
+          { text: 'Observability', link: '/observability' },
         ]
       }
           
@@ -29,7 +27,6 @@ export default defineConfig({
           { text: 'Introduction', link: '/guides/introduction' },
           { text: 'Installation', link: '/guides/installation' },
           { text: 'Quickstart', link: '/guides/quickstart' },
-          { text: 'CLI and Configuration', link: '/guides/getting-started' },
         ]
       },
       { text: 'Core Concepts', 
@@ -44,31 +41,16 @@ export default defineConfig({
           { text: 'Quality & Validations', link: '/concepts/quality' },
         ]
       },
-      { text: 'Confirguration', 
+      { text: 'Configuration', 
         items: [
-          { text: 'Projects and PIpelines', link: '/guides/getting-started' },
-          { text: 'Connection Settings', link: '/guides/getting-started' },
-          { text: 'Scheduling', link: '/guides/getting-started' },
-          { text: 'Secrets & Environment Variables', link: '/guides/getting-started' }
-        ]
-      },
-      { text: 'Transformations', 
-        items: [
-          { text: 'Projects and PIpelines', link: '/guides/getting-started' },
-        ]
-      },
-      { text: 'Quality and Validations', 
-        items: [
-          { text: 'Projects and PIpelines', link: '/guides/getting-started' },
+          { text: 'Projects and Workspaces', link: '/schema/prjs-workspaces' },
+          { text: 'Connections', link: '/schema/connections' },
+          { text: 'Assets', link: '/schema/assets' },
           
         ]
       },
-      { text: 'Intgerations', 
-        items: [
-          { text: 'Projects and PIpelines', link: '/guides/getting-started' },
-          
-        ]
-      },
+      { text: 'Observability', link: '/observability' }
+      
     ]
 
     
