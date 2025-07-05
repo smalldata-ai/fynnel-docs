@@ -1,4 +1,4 @@
-## Quickstart
+# Quickstart
 
 Get up and running with Fynnel in just a few steps!
 
@@ -34,31 +34,39 @@ fynnel connections add --type postgresql --name my_pg --host localhost --port 54
 ### 3. Add a destination Connection
 
 Connect to your data source (example: CLickhouse):
-
 ```bash
-fynnel connections add --type clickhouse --name clickhs --host localhost --port 6349 --user user --password pass --database dbname
+fynnel connections add --type clickhouse --name my_click --host localhost --port 9000 --user default --password pass --database dbname --http_port 8123
 ```
 
 ---
-
-### 4. Scaffold a DBT Project (Optional)
-
-If you use DBT for transformations, scaffold a new DBT project:
-
-```bash
-fynnel dbt scaffold --project my_dbt_project
+### 4. Define Your asset in asset folder
 ```
-
----
+identity: transactions
+source:
+  connection: my_pg
+destination:
+  connection: my_click
+  dataset_name: public
+resources:
+  - source_table_name: transactions
+    destination_table_name: transactions_dw
+    write_disposition:
+      type: replace
+      strategy: full
+```   
 
 ### 5. Define and Run a Pipeline
 
-Create a pipeline configuration file (e.g., `pipeline.yaml`) describing your data flow.
+Add your pipeline configuration in my_workspace.yml.
+```
+pipelines:
+  - identity: "transactions"
+```
 
 Run your pipeline:
 
 ```bash
-fynnel pipeline run --config pipeline.yaml
+fynnel pipeline run my_workspace/<pipeline_name>
 ```
 
 

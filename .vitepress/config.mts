@@ -9,22 +9,18 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-        
-        {
+      {
           text: 'Guide',
           items: [
-            { text: 'Getting Started', 
-              items: [
-                { text: 'Introduction', link: '/guides/introduction' },
-                { text: 'Installation', link: '/guides/installation' },
-              ]
-            },
-            { text: 'Project Structure', link: '/apis/basic.html' },
-            { text: 'gRPC', link: '/gRPC/getting-started' },
-            { text: 'Sources', link: '/sources/postgres' },
-            { text: 'Destinations', link: '/sources/' }
-          ]
-        }
+          { text: 'Getting Started', link: '/guides/introduction'},
+          { text: 'Core Concepts', link: '/concepts/projects.md' },
+          { text: 'Configuration', link: '/concepts/projects.md' },
+          { text: 'Transformations', link: '/concepts/projects.md' },
+          { text: 'Quality Checks', link: '/concepts/projects.md' },
+          { text: 'Observability', link: '/concepts/projects.md' },
+        ]
+      }
+          
     ],
 
     sidebar: [
@@ -38,8 +34,8 @@ export default defineConfig({
       },
       { text: 'Core Concepts', 
         items: [
-          { text: 'Projects', link: '/concepts/projects.md' },
-          { text: 'Workspace', link: '/guides/getting-started' },
+          { text: 'Projects', link: '/concepts/projects' },
+          { text: 'Workspace', link: '/concepts/workspaces' },
           { text: 'Connections', link: '/guides/getting-started' },
           { text: 'Assets', link: '/guides/getting-started' },
           { text: 'Pipelines', link: '/guides/getting-started' },

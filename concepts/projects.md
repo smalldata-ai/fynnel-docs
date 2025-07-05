@@ -1,6 +1,6 @@
 # Projects
 
-In Fynnel, a project serves as the fundamental organizational unit for managing data workflows, configurations, and assets. It encapsulates all the resources, settings, and metadata required to define, execute, and monitor data pipelines within a specific context or workspace.
+In Fynnel, a project serves as the fundamental organizational unit for managing data workflows, configurations, and assets. It encapsulates all the resources, settings, and metadata required to define, execute, and monitor data pipelines within a specific context or multiple workspaces.
 
 Create a new Fynnel project:
 
