@@ -38,7 +38,8 @@ export default defineConfig({
           { text: 'Workspace', link: '/concepts/workspaces' },
           { text: 'Connections', link: '/concepts/connections' },
           { text: 'Assets', link: '/concepts/assets' },
-          { text: 'Pipelines', link: '/guides/getting-started' },
+          { text: 'Pipelines', link: '/concepts/pipelines' },
+          { text: 'Secrets', link: '/concepts/secrets' },
           { text: 'Transformations', link: '/guides/getting-started' },
           { text: 'Quality Checks', link: '/guides/getting-started' },
         ]
