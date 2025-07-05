@@ -36,7 +36,7 @@ export default defineConfig({
         items: [
           { text: 'Projects', link: '/concepts/projects' },
           { text: 'Workspace', link: '/concepts/workspaces' },
-          { text: 'Connections', link: '/guides/getting-started' },
+          { text: 'Connections', link: '/concepts/connections' },
           { text: 'Assets', link: '/guides/getting-started' },
           { text: 'Pipelines', link: '/guides/getting-started' },
           { text: 'Transformations', link: '/guides/getting-started' },
